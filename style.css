@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('fonts/LeFont.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body {
+    background-color: lightpink;
+    .container {
+
+    }
+    /* color: hotpink; */
+    div {
+        /* margin-top: 10px; */
+        padding: 10px;
+        /* outline: 1px solid black */
+        /* margin-left: 10px;
+        margin-right: 10px; */
+    }
+    .title {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 60pt;
+        font-family: 'MyFont', sans-serif;
+        font-weight: bold;
+        color: rgb(176, 4, 84)
+        
+
+    } 
+    .row1 {
+        padding-bottom: 10px;
+        height: 100px;
+        text-align: center;
+      }
+      
+      .rowtext {
+        height: 50px; 
+        text-align: center;
+        font-size: 1rem;
+        font-family: 'Montserrat';
+        font-size: 18px;
+        font-style: italic;
+      }
+    .add-button {
+            background-color: darkgray; 
+            color: black; 
+            border: none; 
+            border-radius: 15px; 
+            border-color: black;
+            padding: 4px 8px; 
+            font-size: 14px; 
+    }
+    .price-button-container {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+        /* margin-top: 5px;  */
+        margin-left: -10px;
+      }
+        
+    
+     
+      .row2 {
+        height: 570px;
+
+        
+      }
+      .insiderow{
+        height: 120px;
+      }
+
+      .secondinsiderow {
+
+        height: 120px;
+      }
+
+      .image {
+
+        width: 120%;
+        height:80px; 
+
+      }
+
+      .bike {
+        width: 120%; 
+        height:80px; 
+      }
+      .picture {
+        width: 150%; 
+        height:120px; 
+      }
+      .line1 {
+        font-family: 'Montserrat';
+        font-size: 20px;
+        font-weight: bold;
+     
+      }
+      
+      .line2 {
+        font-family: 'Montserrat';
+        font-size: 16px;
+        font-style: italic;
+        margin-bottom: 8px;
+        line-height: 1.4;
+        margin-bottom: 60px; 
+
+      }
+      
+      .line3 {
+        font-family: 'Montserrat';
+        font-size: 18px;
+
+      }
+
+      .priceicon {
+        width: 20px;
+        height: 20px;
+        object-fit: contain;
+      }
+
+} 
